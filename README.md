@@ -12,7 +12,7 @@ Crudy (Crud Generator)
 
 1\. Run the following composer command:
 
-``` composer require devsi/crudy:dev-master ```
+``` composer require devsi/crudy ```
 
 2\. If you don't use Laravel Collective Form package in your project, install it:
 
