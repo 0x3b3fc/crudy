@@ -1,0 +1,48 @@
+{
+    "name": "devsi/crudy",
+    "description": "Advanced Laravel Crud Generator",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "crud",
+        "rest",
+        "generator",
+        "rest-api",
+        "laravel-package",
+        "crud-generator",
+        "laravel-crud-generator",
+        "composer-package",
+        "laravel-crud",
+        "crudy",
+        "crudy-generator",
+        "laravel8",
+        "laravel9",
+        "laravel10"
+    ],
+    "autoload": {
+        "psr-4": {
+            "devsi\\Crudy\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "devsi",
+            "email": "dev.sief.hesham@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0.0"
+    },
+    "extra":
+    {
+        "laravel":
+        {
+            "providers":
+            [
+                "devsi\\Crudy\\CrudyServiceProvider"
+            ]
+        }
+    }
+}
