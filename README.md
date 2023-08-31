@@ -98,7 +98,6 @@ A request file is created in your **app/Http/Requests** directory. By default, a
 ### Views
 
 A views directory is created in your **resources/views** directory.
-<sub>If you want to customize generated views : [https://github.com/misterdebug/crud-generator-laravel/wiki/Custom-your-views](https://github.com/misterdebug/crud-generator-laravel/wiki/Custom-your-views)</sub>
 
 You can create views independently of the CRUD generator with :
 ``` php artisan make:views nameOfYourDirectoryViews "column1:type, column2" ```
@@ -112,9 +111,6 @@ Add your `Comment` CRUD (with a column `comment` and a `post_id`)
 Add your `Tag` CRUD (with a `column` name)
 
 ``` php artisan make:crud tag "name" ```
-
-FYI : `Comment` is a specific case and you can use `make:commentable` command
-<small>[Docs about commentable](https://github.com/misterdebug/crud-generator-laravel/wiki/Add-a-commentable-structure-to-any-model)</small>
 
 Finished 🎉
 
